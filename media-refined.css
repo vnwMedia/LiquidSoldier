@@ -1,0 +1,27 @@
+/* Approved Media section: refined article cards. */
+.media.media-refined{background:#fff;color:#0c263e;padding:60px 0;border-bottom:1px solid #dce5ed}
+.media-refined h2{font-size:clamp(34px,3.8vw,50px);line-height:1.15;margin:0 0 34px}
+.media-refined h2 span{color:#215aef}
+.media-refined .media-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.media-refined .media-card{display:flex;flex-direction:column;background:#f0f5f8;border-radius:5px;overflow:hidden;color:inherit;text-decoration:none;min-width:0}
+.media-refined .media-card img{width:100%;height:215px;object-fit:cover;display:block}
+.media-refined .media-card-copy{padding:23px;display:flex;flex:1;flex-direction:column;align-items:flex-start;min-width:0}
+.media-refined time{display:block;font-size:14px;line-height:1.4;color:#65788a;margin-bottom:11px}
+.media-refined h3{font-size:24px;line-height:1.22;margin:0}
+.media-refined .media-read{display:inline-block;font-size:14px;font-weight:600;color:#215aef;margin-top:auto;padding-top:25px}
+.media-refined .media-card:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.media-refined .media-card:focus-visible{outline:3px solid #215aef;outline-offset:5px}
+@media(max-width:1000px){.media-refined .media-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.media.media-refined{padding:48px 0}.media-refined .media-cards{grid-template-columns:1fr}.media-refined .media-card img{height:245px}.media-refined h2{font-size:35px}}
+
+/* Selected Media direction: option three, photo-led stories. */
+.media-refined .media-cards{gap:20px}
+.media-refined .media-card{position:relative;height:380px;display:block;background:#0c263e;isolation:isolate}
+.media-refined .media-card img{height:100%;width:100%;object-fit:cover}
+.media-refined .media-card:after{content:'';position:absolute;inset:0;z-index:0;background:linear-gradient(transparent 15%,rgba(3,19,35,.4) 42%,rgba(3,19,35,.97))}
+.media-refined .media-card-copy{position:absolute;z-index:1;bottom:0;left:0;right:0;display:block;padding:24px;color:white}
+.media-refined time{color:#e1e9f1}
+.media-refined h3{font-size:25px}
+.media-refined .media-read{color:white;border-bottom:1px solid #a9bbcb;padding:0 0 3px;margin-top:21px}
+@media(max-width:1000px){.media-refined .media-card{height:350px}}
+@media(max-width:650px){.media-refined .media-card{height:360px}.media-refined .media-card img{height:100%}}

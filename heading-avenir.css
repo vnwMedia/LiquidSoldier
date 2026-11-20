@@ -1,0 +1,17 @@
+/* Approved heading direction: Avenir Next Demi. Body and navigation unchanged. */
+body h1, body h2, body h3, body h4, body h5, body h6,
+body .hero h1, body.direction-2 h2, body.direction-2 .hero h1,
+body.direction-3 .hero h1 {
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: -.025em;
+}
+body .hero h1 strong, body h2 em {
+  font-family: inherit;
+  font-weight: 600 !important;
+}
+/* Keep the quiet introductory line from the approved comparison. */
+body .hero h1 span {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}

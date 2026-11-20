@@ -1,0 +1,18 @@
+/* Approved Difference section: photography-led option two. */
+.difference.difference-photography{background:#fff;color:#0b253c;padding:65px 0;border-bottom:1px solid #dce5ed}
+.difference-photography .difference-photo-intro{text-align:center;max-width:860px;margin:auto}
+.difference-photography h2{font-size:clamp(34px,4vw,52px);line-height:1.12;margin:0}
+.difference-photography h2 br{display:none}
+.difference-photography h2 em{font-style:normal;color:#215aef}
+.difference-photography .eyebrow{font-size:13px;font-weight:600;letter-spacing:.15em;color:#215aef;display:block;margin-bottom:22px}
+.difference-photography p{font-size:17px;line-height:1.7;color:#506376;margin:24px 0 0}
+.difference-photography .difference-photo-cta{display:inline-block;background:#215aef;color:white;text-decoration:none;padding:14px 24px;border-radius:4px;font-size:15px;font-weight:600;margin-top:25px}
+.difference-photography .difference-photo-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:42px}
+.difference-photography .difference-photo-benefits article{overflow:hidden;border-radius:5px;background:#f1f5f8}
+.difference-photography .difference-photo-benefits img{width:100%;height:230px;object-fit:cover;display:block}
+.difference-photography .difference-photo-benefits article:nth-child(1) img{object-position:center 35%}
+.difference-photography .difference-photo-benefits article:nth-child(2) img{object-position:center 30%}
+.difference-photography h3{font-size:23px;line-height:1.25;margin:0;padding:23px}
+.difference-photography a:focus-visible{outline:3px solid #215aef;outline-offset:4px}
+@media(max-width:900px){.difference-photography .difference-photo-benefits{gap:18px}.difference-photography .difference-photo-benefits img{height:190px}}
+@media(max-width:650px){.difference.difference-photography{padding:48px 0}.difference-photography .difference-photo-benefits{grid-template-columns:1fr;gap:16px;margin-top:30px}.difference-photography .difference-photo-benefits img{height:230px}.difference-photography h2{font-size:36px}}

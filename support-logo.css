@@ -1,0 +1,4 @@
+/* Official Memorial Fund artwork: preserve original proportions. */
+.support .support-photo{background:#fff;}
+.support .support-photo img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;object-position:center;}
+@media(max-width:800px){.support .support-photo img{max-height:400px;}}
